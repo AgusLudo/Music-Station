@@ -1,0 +1,21 @@
+ion-content {
+    --background : none;
+    border:none;
+    background-image: url(../../assets/imagenes/wp4991631.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ion-icon {color: #ff5900; display: block; font-size: 2.5vw; margin: auto;}
+ion-label {color: whitesmoke;font-size: 1vw;}
+
+.container {
+    
+    height: 100%;
+    display: flex;
+    /* align-items por defecto tiene el valor `stretch` */
+    align-items:center; justify-content: space-evenly;}
+
+a { border-radius: 50%;border-style: solid; border-color: #ff5900; border-width: 0.3vw; background-color:#1f1f1f ;padding: 6vw 6.5vw;}
+img { height: 40px; margin-left: 1vw;; float: left; }
+
+  ion-title{margin-top: 10px;;}
